@@ -1,11 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        count(38, 2);
+        count(38);
 
     }
 
-    public static void count(int age, String eyeColor) {
-        System.out.println("My age is: " + age + " and I have " + eyeColor " eyes.");
+    public static void count(int paramenter) {
+        System.out.println("Counting the countless" + paramenter);
     }
 }
