@@ -1,6 +1,8 @@
 public class Cheer {
 
-  public void greet() {
-    System.out.println("Java");
+  public void cheer(String cheering, String teamName) {
+    cheering = "Go";
+    teamName = "Team Cool";
+    System.out.println(cheering + teamName);
   }
 }
