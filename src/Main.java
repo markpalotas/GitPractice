@@ -4,4 +4,8 @@ public class Main {
         System.out.println("Hello World!");
 
     }
+
+    public static void count() {
+        System.out.println("My age is: " + 38);
+    }
 }
